@@ -1,0 +1,92 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fa9a1b, #eea366);
+    height: 700px;
+}
+
+
+/* Stylish header with responsive padding */
+header {
+    background-color: #cc6d00;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Responsive padding top and bottom */
+}
+
+/* Larger header title for better impact */
+header h1 {
+    font-size: 48px; /* Increased font size for impact */
+}
+
+/* Stylish input field with responsive width */
+input[type="text"] {
+    width: 100%; /* Expands to full width */
+    padding: 15px; /* Increased padding for a more substantial look */
+    margin-bottom: 15px; /* Added margin for spacing */
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    outline: none;
+}
+
+/* Stylish button with responsive padding */
+button#addTaskBtn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 15px 30px; /* Increased padding for a larger button */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Responsive main content area */
+main {
+    max-width: 800px; /* Increased max width for larger screens */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Enhanced box shadow for depth */
+}
+
+/* Stylish and responsive task list */
+ul#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Stylish and responsive task items */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px; /* Increased padding for better spacing */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Enhanced box shadow */
+}
+
+/* Stylish delete button with responsive padding */
+li button.deleteBtn {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px; /* Increased padding for a larger button */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Stylish completed task with line-through and color change */
+li.complete {
+    text-decoration: line-through;
+    color: #6c757d;
+}
